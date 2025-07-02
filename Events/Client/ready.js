@@ -13,11 +13,11 @@ module.exports = {
         
         let tserver = client.guilds.cache.size;
 
-		client.user.setActivity(`/help | Watching Pokeadda's server`, {
+		client.user.setActivity(`/help`, {
 			type: 'PLAYING',
 		});
 
-        const channel = client.channels.cache.get("967790418601328670")
+        const channel = client.channels.cache.get("")
         channel.send("I AM ONLINE!!")
 
         if (!Database) return;
