@@ -1,0 +1,86 @@
+<svg width="512" height="512" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- 
+    SVG Logo for Damian Discord Bot
+    - Modern, tech-inspired design.
+    - Scalable vector graphics.
+    - Dark theme with blue/white accents.
+  -->
+  <defs>
+    <!-- Gradient for the main title -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0A0E0;stop-opacity:1" />
+    </linearGradient>
+    <!-- A subtle glow filter -->
+    <filter id="glow">
+        <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+        <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main Body Shape -->
+  <path d="M15,20 Q10,10 20,10 H80 Q90,10 85,20 L80,30 V80 Q80,90 70,90 H30 Q20,90 20,80 V30 Z" fill="#2C2F33"/>
+
+  <!-- Circuit Board Pattern -->
+  <g stroke="#5865F2" stroke-width="0.5" fill="none">
+    <!-- Left side -->
+    <path d="M30,35 H25 V45 H35" />
+    <path d="M30,50 V60 H25" />
+    <path d="M30,65 H35 V75" />
+    <circle cx="30" cy="35" r="1" fill="#5865F2"/>
+    <circle cx="35" cy="45" r="1" fill="#5865F2"/>
+    <circle cx="25" cy="60" r="1" fill="#5865F2"/>
+    <circle cx="35" cy="75" r="1" fill="#5865F2"/>
+    
+    <!-- Right side -->
+    <path d="M70,35 H75 V45 H65" />
+    <path d="M70,50 V60 H75" />
+    <path d="M70,65 H65 V75" />
+    <circle cx="70" cy="35" r="1" fill="#5865F2"/>
+    <circle cx="65" cy="45" r="1" fill="#5865F2"/>
+    <circle cx="75" cy="60" r="1" fill="#5865F2"/>
+    <circle cx="65" cy="75" r="1" fill="#5865F2"/>
+
+    <!-- Top -->
+    <path d="M50,15 V20 H40" />
+    <path d="M50,20 H60" />
+    <circle cx="40" cy="20" r="1" fill="#5865F2"/>
+    <circle cx="60" cy="20" r="1" fill="#5865F2"/>
+  </g>
+
+  <!-- Gear Icon -->
+  <g transform="translate(30, 22) rotate(-25)">
+    <circle cx="0" cy="0" r="8" fill="#E0E0E0"/>
+    <circle cx="0" cy="0" r="4" fill="#2C2F33"/>
+    <path d="M0,-10 L2,-6 H-2 Z M0,10 L2,6 H-2 Z M10,0 L6,2 V-2 Z M-10,0 L-6,2 V-2 Z M7.07,-7.07 L4.24,-4.24 L5.66,-2.83 Z M-7.07,7.07 L-4.24,4.24 L-5.66,2.83 Z M7.07,7.07 L4.24,4.24 L2.83,5.66 Z M-7.07,-7.07 L-4.24,-4.24 L-2.83,-5.66 Z" fill="#E0E0E0"/>
+  </g>
+
+  <!-- Eyes -->
+  <g fill="#E0E0E0">
+    <path d="M40,35 Q45,30 50,35 Q45,40 40,35 Z" />
+    <path d="M60,35 Q55,30 50,35 Q55,40 60,35 Z" />
+  </g>
+
+  <!-- Text "Damian" -->
+  <text x="50" y="58" font-family="'Russo One', sans-serif" font-size="20" fill="url(#titleGradient)" text-anchor="middle" font-weight="bold" letter-spacing="0.1em">DAMIAN</text>
+  
+  <!-- Text "BOT" -->
+  <text x="50" y="75" font-family="'Russo One', sans-serif" font-size="10" fill="#A0A0E0" text-anchor="middle" font-weight="normal">BOT</text>
+
+  <!-- Discord-like shape at the bottom -->
+  <g transform="translate(50, 82) scale(0.8)">
+      <path d="M-15.5,0 a15,15 0 0,1 31,0 a1,1 0 0,0 -31,0" fill="#5865F2" filter="url(#glow)"/>
+      <circle cx="-9" cy="-1" r="2.5" fill="#2C2F33"/>
+      <circle cx="9" cy="-1" r="2.5" fill="#2C2F33"/>
+  </g>
+
+  <!-- Import Google Font -->
+  <style type="text/css">
+    <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    ]]>
+  </style>
+</svg>
