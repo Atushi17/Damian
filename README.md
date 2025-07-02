@@ -62,13 +62,7 @@ Damian offers a wide range of features to make your server more engaging and man
 
 ### NSFW
 
-* **4k:** Get 4k NSFW images.
-* **Anal:** Get anal NSFW images.
-* **Ass:** Get ass NSFW images.
-* **Bondage:** Get bondage NSFW images.
-* **Hentai:** Get hentai NSFW images.
-* **Pussy:** Get pussy NSFW images.
-* **Solo:** Get solo NSFW images.
+* **Get NSFW images.**
 
 ### Miscellaneous
 
